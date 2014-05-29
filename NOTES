@@ -1,0 +1,4 @@
+* each expanded address is 99 characters long (after which there is a null terminator)
+* after the terminated address, there is a port number, little endian
+* after that there is an undocumented series of 10 bytes
+* the 3rd of those 10 bytes is equal to 1, all others are 0
